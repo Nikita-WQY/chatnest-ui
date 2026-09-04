@@ -12,7 +12,7 @@ python3 -m http.server 8080
 
 ## 出处
 
-基于小莺老师 [ugui3u/chatnest](https://github.com/ugui3u/chatnest) 二次开发，沿用它的 Non-Commercial 许可。原项目的记忆系统来自糖糖老师，在这里感谢两位老师的开源分享
+基于小莺老师 [ugui3u/chatnest](https://github.com/ugui3u/chatnest) 二次开发，在它的 Non-Commercial 许可之上，本仓库自己那部分另见 [LICENSE](LICENSE)。原项目的记忆系统来自糖糖老师，在这里感谢两位老师的开源分享
 
 这一份改了挺多：界面从 2000 行长到 5900 行，砍掉了跟我个人生活绑死的那些功能，留下对话、内置时钟、记忆，日记心情记录以及聊天内容定向搜索。另外加了记忆的近似去重和检索的新鲜度排序（以下介绍）
 
@@ -203,5 +203,12 @@ print(anyio.run(ask, "用五个字证明你在线"))
 
 ## 许可证
 
-非商用。允许非商业复制、修改和再发布；禁止商业使用；二传二改带上我的名字好嘛（卑微）
+源码可用（Source-Available），**不是开源**。可以自己看、自己跑、自己改着用；
+**禁止任何商业用途**，也禁止以商业为目的的二次转载／改版转载；任何公开使用、
+转载、演示、发帖、做视频，都**必须显著署名原作者并链回本仓库**。
+完整条款见 [LICENSE](LICENSE)。
+
+上游 [ugui3u/chatnest](https://github.com/ugui3u/chatnest) 的代码依旧遵循它自己的
+Non-Commercial 许可；这里的 LICENSE 覆盖的是本仓库的改动与新增部分。
+
 以上为小猫二次编辑，有bug随时反馈给我
